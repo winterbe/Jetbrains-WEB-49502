@@ -1,0 +1,4 @@
+rootProject.name = "foobar"
+
+include(":foo")
+include(":bar")

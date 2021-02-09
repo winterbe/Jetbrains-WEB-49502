@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["node_modules/@types"],
+    "noEmit": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "scripthost",
+      "es2017"
+    ],
+    "module": "es6",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "./foo/src/main/typescript/**/*.ts*",
+    "./bar/src/main/typescript/**/*.ts*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

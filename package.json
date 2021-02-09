@@ -1,0 +1,8 @@
+{
+  "name": "foobar",
+  "version": "1.0.0",
+  "author": "Benjamin Winterberg",
+  "devDependencies": {
+    "typescript": "3.9.3"
+  }
+}

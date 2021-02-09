@@ -1,0 +1,8 @@
+dependencies {
+    // remove this dependency and IDEA does no longer recognize TypeScript types from module :bar
+    implementation project(":bar")
+}
+
+
+group = "com.winterbe"
+description = "foo"
